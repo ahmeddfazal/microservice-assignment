@@ -1,5 +1,6 @@
 const BACKEND_PORT = "5000";
-const BACKEND_BASE_URL = `http://52.90.237.228:${BACKEND_PORT}`;
+const BACKEND_BASE_URL = `http://3.90.43.41:${BACKEND_PORT}`;
+// const BACKEND_BASE_URL = `http://localhost:${BACKEND_PORT}`;
 
 async function buildResponseWithStatus(rawResponse) {
   let responseDataWithStatus = {};
